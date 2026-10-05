@@ -16,6 +16,8 @@ app.use(express.json());
  
 connectDB(); 
 
+
+
 app.use("/api/products", productRoutes);
 
 // Test API
