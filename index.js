@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
  
 connectDB();  
-app.use("/api/products", productRoutes)sd;
+app.use("/api/products", productRoutes)
 
 
 // Test API
